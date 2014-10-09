@@ -13,6 +13,8 @@ gem 'devise'
 gem 'draper'
 gem 'pundit'
 
+gem 'inherited_resources', github: 'andriytyurnikov/inherited_resources', branch: 'rails_4_2'
+
 # Utility gems used in both development & test environments
 gem 'rake', require: false
 gem 'parallel_tests'
